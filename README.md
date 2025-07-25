@@ -1,4 +1,4 @@
-#🎲 Dice Game
+🎲 #Dice Game
 
 A simple 2-player dice game implemented in JavaScript, HTML, and CSS, following a clearly defined game logic as visualized in the flowchart below.
 
