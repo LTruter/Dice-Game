@@ -4,8 +4,6 @@ A simple 2-player dice game implemented in JavaScript, HTML, and CSS. The game l
 
 ## 🔁 Game Flow
 
-![Game Flowchart](pig-game-flowchart.png)
-
 - **Roll Dice**:
   - Generates a random number from 1 to 6.
   - If the number is not 1, it's added to the player's **current score**.
