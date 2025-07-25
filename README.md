@@ -1,4 +1,4 @@
-# 🎲 Pig Dice Game
+# 🎲 Dice Game
 
 A simple 2-player dice game implemented in JavaScript, HTML, and CSS. The game logic follows the structure below:
 
