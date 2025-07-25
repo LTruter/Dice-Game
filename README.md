@@ -1,42 +1,19 @@
-🎲 #Dice Game
+# 🎲 Pig Dice Game
 
-A simple 2-player dice game implemented in JavaScript, HTML, and CSS, following a clearly defined game logic as visualized in the flowchart below.
+A simple 2-player dice game implemented in JavaScript, HTML, and CSS. The game logic follows the structure below:
 
+## 🔁 Game Flow
 
-🕹 How to Play
-The Dice Game is a turn-based game for two players. The goal is to be the first player to reach 100 points.
+- **Roll Dice**:
+  - Generates a random number from 1 to 6.
+  - If the number is not 1, it's added to the player's **current score**.
+  - If it's a 1, the **current score is lost** and the turn switches to the other player.
 
-🔁 Game Flow
-User rolls dice
+- **Hold**:
+  - Adds the current score to the **total score**.
+  - If the total score is **100 or more**, the player wins.
+  - Otherwise, the turn switches.
 
-A random number (1–6) is generated.
-
-The dice roll is displayed.
-
-If the result is not 1, the number is added to the current score.
-
-If the result is 1, the current score is lost and the turn switches to the other player.
-
-User holds score
-
-The current score is added to the total score.
-
-If the total score is 100 or more, the player wins.
-
-If not, the turn switches to the other player.
-
-User resets game
-
-All scores are reset to 0.
-
-Player 1 is set as the starting player.
-
-📦 Features
-Responsive dice rolling with dynamic UI updates
-
-Player switching logic
-
-Win condition and score tracking
-
-Reset functionality for replayability
-
+- **New Game**:
+  - Resets all scores to 0.
+  - Sets **Player 1** as the starting player.
